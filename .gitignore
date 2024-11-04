@@ -1,0 +1,54 @@
+# dependencies
+node_modules/
+
+# Expo and React Native cache
+.expo/
+.expo-shared/
+**/android/app/build/
+**/ios/Pods/
+**/ios/build/
+
+# build artifacts
+dist/
+web-build/
+*.log
+
+# temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+
+# miscellaneous
+*.swp
+*.swo
+
+# Native keys and keystores
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro bundler
+.metro-health-check*
+.cache/
+
+# Environment and config files
+.env
+.env*.local
+
+# macOS files
+.DS_Store
+*.pem
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Debug files
+npm-debug.*
+yarn-debug.*
+yarn-error.*
